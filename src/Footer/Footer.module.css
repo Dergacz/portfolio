@@ -1,5 +1,7 @@
 .footerBlock {
     height: 25vh;
+    display: flex;
+    align-items: center;
     background-color: #97edef;
 }
 
@@ -7,10 +9,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .title {
     text-align: center;
+    margin-top: 20px;
+    background-color: #f6ad8e;
 }
 
 a.links {
