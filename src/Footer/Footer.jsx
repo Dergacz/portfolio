@@ -14,7 +14,7 @@ export const Footer = () => {
                     <a className={style.links} href={"#"}><span className={style.telegram}>Telegram</span></a>
                     <a className={style.links} href={"#"}><span className={style.gitHub}>GitHub</span></a>
                 </div>
-                <p className={style.year}>© 2021 All Rights Reserved.</p>
+                <div className={style.year}>© 2021 All Rights Reserved.</div>
             </div>
         </footer>
     )

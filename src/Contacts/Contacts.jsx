@@ -8,7 +8,6 @@ export const Contacts = () => {
         <div className={style.contactsBlock}>
             <div className={`${general.container} ${style.container}`}>
                 <h3 className={style.title}>Contact</h3>
-                <div className={style.formBlock}>
                     <form className={style.form}>
                         <input
                             className={style.inputName}
@@ -29,7 +28,7 @@ export const Contacts = () => {
                         />
                         <button className={style.button}>Send Message</button>
                     </form>
-                </div>
+
             </div>
         </div>
     )

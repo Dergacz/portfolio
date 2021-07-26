@@ -1,5 +1,5 @@
 .projectsBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #9afd9a;
 }
 
@@ -18,5 +18,9 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
+}
+
+.year {
+
 }

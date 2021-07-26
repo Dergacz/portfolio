@@ -4,9 +4,11 @@ import style from "./Project.module.css";
 export const Project = (props) => {
     return (
         <div className={style.project}>
-            <a href={""}>
-                <div className={style.img}></div>
-            </a>
+            <div className={style.imgContainer}>
+                    <a href={""}>
+                        <button className={style.button}>Watch</button>
+                    </a>
+            </div>
             <h3 className={style.title}>{props.title}</h3>
             <div className={style.description}>
                 {props.description}
