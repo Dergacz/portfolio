@@ -29,7 +29,6 @@ export const Contacts = () => {
                         />
                         <button className={style.button}>Send Message</button>
                     </form>
-
                 </div>
             </div>
         </div>
